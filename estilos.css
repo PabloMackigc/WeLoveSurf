@@ -1,0 +1,117 @@
+body
+{						
+			font-family: "Lato", sans-serif;
+		}	
+		header
+		{
+			text-align: center;
+		}
+		section
+		{
+			margin: 20px
+			text-align: center;
+		}
+
+h2
+{
+	text-align: center;
+	color:#34d2eb;
+}
+
+li
+{
+	 float: left;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+  li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: #04AA6D;
+}
+
+.fila
+{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin-left: 10%;
+	margin-right: 10%;
+	grid-row-gap: 20px;
+	column-span: all;
+	
+
+
+
+}
+<!--
+.fila img
+{
+
+	width: 500px;
+
+	column-span: all;
+	
+	
+	grid-gap: 20px;
+	grid-row-gap: 200px;
+	grid-column-gap: 20%;
+
+
+}
+-->
+
+.articulo
+{
+	text-align: left;
+}
+.derecha
+{
+	text-align: center;
+	align-items: center;
+	vertical-align: right;
+
+}
+.izquierda
+{
+	text-align: center;
+	align-items: center;
+	vertical-align: left;
+}
+iframe
+{
+	
+	margin:  auto;
+	display: block;
+	
+}
+table
+		{
+			width: 100%;
+			border-collapse: collapse;
+			margin-bottom: 100px;
+		}
+		td
+		{
+			text-align: center
+		}
+		th
+		{
+			height: 100px;
+		}
